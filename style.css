@@ -1,0 +1,131 @@
+/*
+--------------------------------------------
+SUGESTÃO DE ESTRUTURAÇÃO BASE 
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** BODY
+**** TOPO
+**** RODAPÉ
+**** PÁGINA INICIAL
+*/
+
+/*BODY*/
+body{
+	font-family: 'Special Elite',cursive,sans-serif;
+	color: #FFFFFF;
+	background-color:  #000000;
+	box-sizing: border-box;	
+	padding: 0 5px 5px 5px;
+}
+
+img:hover{
+	box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+}
+
+button:hover {
+	box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+
+
+/*TOPO*/
+header.topo{
+	font-size: 25px;
+	font-weight:bolder;
+	display: flex;
+	justify-content: center;	
+	color: #FFFFFF;
+    background: #000000;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+
+}
+
+/*RODAPÉ*/
+
+footer{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+    justify-content: center;
+	
+}
+
+img{
+	width: 186px;
+	border-radius: 30px;
+}
+
+
+
+
+
+
+button{
+	display: flex;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: 'Special Elite',cursive,sans-serif;
+	border-radius: 30px;
+	border-style: 2px solid;
+	color: white;
+	background-color: #000000;
+	padding: 15px;
+	cursor: pointer;
+	justify-items: center;
+}
+
+/*PÁGINA INICIAL*/
+div.pg-home{
+	display: flex;
+	justify-content: center;
+}
+
+figcaption{
+	display: none;
+}
+
+.usuarios{
+	border-radius: 50%;
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+}
+
+ul{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+list-style: none;
+}
+
+@media screen and (min-width: 1080px){
+header.topo{
+	display: flex;
+	justify-content: flex-start;
+}
+
+ul{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 858px;
+}
+
+/*RODAPÉ*/
+a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	font-style: none;
+	font-weight: bolder;
+	font-size: 20px; color: #49ff18;
+}
+}
